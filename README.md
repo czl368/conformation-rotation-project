@@ -1,6 +1,6 @@
 # conformation-rotation-project
 ## Overview
-Generated a dataset looking at alternate conformations of sidechains and b-factors. Extracted and processed pdb files using Biotite (https://www.biotite-python.org/). Filtered for pdb files with resolution < 2 Angstroms in .cif format then processed only X-ray Crystallography files. 
+Generated a dataset looking at alternate conformations of sidechains. Extracted and processed pdb files using Biotite (https://www.biotite-python.org/). Filtered for pdb files with resolution < 2 Angstroms in .cif format then processed only X-ray Crystallography files. 
 
 Additional processing and filtering was done for files with b-factor values < 80 and alternate locations (different conformations) with fixed backbone (RMSD < 0.1) and sidechain RMSD > 2. Followed by inital data analysis of the extracted data.
 

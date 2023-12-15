@@ -4,22 +4,21 @@ This project contains code to generate a dataset with alternate conformation of 
 
 Additional processing and filtering was done for files with b-factor values < 80 and alternate locations (different conformations) with fixed backbone (RMSD < 0.1) and sidechain RMSD > 2. Followed by inital data analysis of the extracted data.
 
-## Files
+## Data processing
 ### 1. Downloading all entries from PDB.ipynb
 Extracts pdb files from https://www.rcsb.org/ with resolution < 2 Angstroms in .cif format using biotite
 
-### finalDatasetpkl.tar.gz
-Final dataset generated
-
-## Data processing
-### 2. Checking max alt loc.ipynb
+### 2. Checking max alt loc.ipynb (data processing folder)
 Checks the maximum number of alternate locations in a dataset
 
-### 3. Processing All Files - CIF only.ipynb
+### 3. Processing All Files - CIF only.ipynb (data processing folder)
 Processes all .cif files in a folder by extracting desired features and storing resulting dictionaries as .pkl files
 
-### 4. Preliminary Data Analysis.ipynb
-Filtering processed files and preliminary data analysis. Note b-factor vs number of alternate locations plot includes all atoms (both backbone and sidechain).
+### 4. Preliminary Data Analysis.ipynb (data processing folder)
+Filtering processed files and preliminary data analysis. Note: b-factor vs number of alternate locations plot includes all atoms (both backbone and sidechain).
+
+### finalDatasetpkl.tar.gz
+Final dataset generated
 
 ## Notes
 1. Make sure to change all of the file paths in each file and update the maximum number of alternate locations

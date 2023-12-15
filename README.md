@@ -5,7 +5,7 @@ Generated a dataset looking at alternate conformations of sidechains and b-facto
 Additional processing and filtering was done for files with b-factor values < 80 and alternate locations (different conformations) with fixed backbone (RMSD < 0.1) and sidechain RMSD > 2. Followed by inital data analysis of the extracted data.
 
 ## Additional Notes
-Would need to download a list of all pdb files before using biotite (current_file_holdings.json.gz) from https://www.wwpdb.org/ftp/pdb-ftp-sites 
+Could also download a list of all pdb files if needed from (current_file_holdings.json.gz) from https://www.wwpdb.org/ftp/pdb-ftp-sites 
 
 ## Files
 ### Downloading all entries from PDB.ipynb

@@ -19,7 +19,7 @@ Checks the maximum number of alternate locations in a dataset
 Processes all .cif files in a folder by extracting desired features and storing resulting dictionaries as .pkl files
 
 ### Preliminary Data Analysis.ipynb
-Filtering processed files and preliminary data analysis
+Filtering processed files and preliminary data analysis. Note b-factor vs number of alternate locations plot includes all atoms (both backbone and sidechain).
 
 ## Notes
 1. Make sure to change all of the file paths in each file

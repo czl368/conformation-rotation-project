@@ -9,9 +9,12 @@ Would need to download a list of all pdb files before using biotite (current_fil
 
 ## Files
 Downloading all entries from PDB.ipynb = extracts pdb files from https://www.rcsb.org/ with resolution < 2 Angstroms in .cif format using biotite
+
 Checking max alt loc.ipynb = checks the maximum number of alternate locations in a dataset
+
 finalDatasetpkl.tar.gz = final dataset generated
 
 ## Data processing
 Processing All Files - CIF only.ipynb = Processes all .cif files in a folder by extracting desired features and storing resulting dictionaries as .pkl files
+
 Preliminary Data Analysis.ipynb = Filtering processed files and preliminary data analysis

@@ -1,8 +1,16 @@
 import numpy as np
 
-# output: dictionary w/ num alt locations per residue, and aa string
-# input: processed file dictionary
 def altloc_per_res(processed_file_dict):
+    """
+    input: 
+    processed_file_dict (dict)
+    
+    output:
+    number of altlocs per residue (dict)
+    
+    {'aa': aa_str,
+    'num_altloc': altloc_count}
+    """
     aa_str = processed_file_dict['aa']
     num_res = len(aa_str)
     loc = 0
@@ -24,8 +32,14 @@ def altloc_per_res(processed_file_dict):
             'num_altloc': altloc_count
            }
 
-#Turning list of lists into one large list
 def flatten_to_one_list(list_of_lists):
+    """
+    Input: 
+    list containing lists (list) --> e.g. [[0,1], [2,3], [4,5]] or [ [[0,1],[2,3]], [[4,5],[6,7]] ]
+    
+    Output:
+    flattened list (list) --> e.g. [0, 1, 2, 3, 4, 5] or [[0,1], [2,3], [4,5], [6,7]]
+    """
     final_list = []
     
     for sublist in list_of_lists:
